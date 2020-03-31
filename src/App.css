@@ -1,0 +1,51 @@
+.todos{
+    margin-top: 10vh;
+}
+.todos__list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    max-height: 316px;
+    overflow-y: scroll;
+}
+.todos__item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.todos__item label {
+    cursor: pointer;
+}
+.todos__item.completed label {
+    text-decoration: line-through;
+}
+
+.todos__item-checkbox {
+    display: inline-block !important;
+}
+.todos__item-remove.btn-sm {
+    float: right;
+    padding: 4px 6px;
+    line-height: 14px;
+}
+.todos__item-checkbox-all {
+    margin-left: 17px;
+    margin-bottom: 20px;
+}
+.todos__all-item-check {
+    margin: 20px 0;
+}
+.todo__actions {
+    text-align: center;
+    margin: 30px 0;
+}
+.todo__action-btn, .todo__action-btn:focus, .todo__action-btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.todo-input {
+    margin-bottom: 20px;
+}
